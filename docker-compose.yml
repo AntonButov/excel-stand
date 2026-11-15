@@ -2,7 +2,7 @@ services:
   excel-stand:
     build: .
     ports:
-      - "8080:8080"
+      - "8130:8080"
     environment:
       - SOFFICE_PATH=/usr/bin/soffice
     volumes:

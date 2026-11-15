@@ -47,6 +47,10 @@ pytest -q
 }
 ```
 
+## Deploy
+
+Production: **`80.87.196.33:8130`** only (not on `206.223.250.251`). See [docs/deploy.md](docs/deploy.md).
+
 ## License
 
 MIT
