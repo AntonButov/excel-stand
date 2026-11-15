@@ -1,0 +1,13 @@
+services:
+  excel-stand:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SOFFICE_PATH=/usr/bin/soffice
+    volumes:
+      - excel_stand_tmp:/tmp
+    restart: unless-stopped
+
+volumes:
+  excel_stand_tmp:

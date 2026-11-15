@@ -1,0 +1,24 @@
+{
+  "pass": [
+    {"id": "01", "file": "01_simple.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "02", "file": "02_multisheet.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "03", "file": "03_formulas.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "04", "file": "04_merged.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "05", "file": "05_types.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "06", "file": "06_russian.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "07", "file": "07_wide.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "08", "file": "08_tall.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "09", "file": "09_styled.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "10", "file": "10_empty_second_sheet.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "11", "file": "11_template.xltx", "format": "xltx", "expect": "pass"},
+    {"id": "12", "file": "12_macro.xlsm", "format": "xlsm", "expect": "pass"},
+    {"id": "13", "file": "13_legacy.xls", "format": "xls", "expect": "pass"},
+    {"id": "14", "file": "14_ods.ods", "format": "ods", "expect": "pass"},
+    {"id": "15", "file": "15_csv_origin.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "16", "file": "16_freeze_filter.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "17", "file": "17_hyperlinks.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "18", "file": "18_comments.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "19", "file": "19_print_area.xlsx", "format": "xlsx", "expect": "pass"},
+    {"id": "20", "file": "20_mixed_formats.xlsx", "format": "xlsx", "expect": "pass"}
+  ]
+}
